@@ -10,7 +10,7 @@ function Schemes() {
   useEffect(() => {
     const fetchSchemes = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/schemes", {
+                const response = await fetch("https://jansahay-backend.onrender.com/api/schemes", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },

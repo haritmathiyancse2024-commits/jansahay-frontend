@@ -15,7 +15,7 @@ function Login({ onLogin }) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://jansahay-backend.onrender.com",
         {
           method: "POST",
           headers: {
