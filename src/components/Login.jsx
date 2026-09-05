@@ -15,7 +15,7 @@ function Login({ onLogin }) {
 
     try {
       const response = await fetch(
-        "https://jansahay-backend.onrender.com",
+        "https://jansahay-backend.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {
